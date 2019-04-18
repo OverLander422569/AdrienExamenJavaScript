@@ -1,0 +1,76 @@
+/*GENERAL*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3{
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+li, ol{
+    list-style: none;
+}
+section{
+    padding: 20px 0 20px 0;
+    display: inline;
+}
+section .heading h1{
+    text-transform: uppercase;
+}
+.accordion{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.card-header:hover{
+    background-color: #ccc;
+}
+.accordion:before {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.card-body {
+    display: none;
+}
+
+/*Human-Booster*/
+#human-booster{
+    padding-top: 20px;
+    background: rgb(177, 177, 177);
+}
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+/*Objectifs*/
+
+#objectif{
+    background: #fff;
+}
+.row
+{
+    display: inline;
+}
+
+/*Contenu*/
+#contenu{
+    padding-top: 20px;
+    background: rgb(177, 177, 177);
+}
+#contenu .heading h2{
+    color: #fff;
+}
+
+#listeEleve{
+    background: rgb(177, 177, 177);
+}
+
+#footer{
+    background: rgb(177, 177, 177);
+}
